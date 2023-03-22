@@ -1,7 +1,14 @@
 <script>
-    export default {}
+    export default {
+    data() {
+        return {
+            image: "src/img/01.jpg",
+
+        }
+    }
+}
 </script>
 
 <template>
-    <img src= "../img/01.jpg" alt="hell">
+    <img :src="image" alt="hell">
 </template>
